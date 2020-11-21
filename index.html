@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Definetly real google page!</title>
+		<style>
+			body{
+				display: flex;           /* establish flex container */
+    			flex-direction: column;  /* make main axis vertical */
+	    		justify-content: center; /* center items vertically, in this case */
+		    	align-items: center;
+				height: 60vh;
+			}
+			.container-search{
+				display: flex;
+  				align-items: center;
+				width: 33%;
+  				height: 200px;
+				flex-direction: column;
+				margin: auto;
+				
+			}
+			.logo{
+				margin: 10px;
+			}
+			.search{
+				margin: 10px;
+				width: 50vmin;
+			}
+			.search-btn{
+				padding: 10px;
+			}
+			.nav-bar{
+				width: 100%;
+				height: 15px;
+			}
+			.right-nav{
+				float: right;
+				margin-left: 10px;
+
+			}
+			.left-nav{
+				float:left;
+				margin-left: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav-bar">
+			<div class="left-nav">
+				<a href="">About</a>
+				<a href="">Store</a>
+			</div>
+			<div class="right-nav">
+				<a href="">Gmail</a>
+				<a href="">Images</a>
+				<button >Sign in</button>
+			</div>
+		</div>
+		<div class='container-search'>
+			<div>
+				<img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+			</div>
+			<div>
+				<input class='search' type="text" name="" id="">
+			</div>
+			<div>
+				<button class="search-btn">Search</button>
+				<button class="search-btn">I'm feeling lucky</button>
+			</div>
+		</div>
+	</body>
+</html>
